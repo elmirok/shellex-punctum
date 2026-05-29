@@ -20,6 +20,6 @@
     }
   },
   "files": {
-    "README.md": "# Punctum\n\nPunctum is a keyboard-friendly Shellex OS text editor for files inside the encrypted vault. Open it with `punctum <path>` or `edit <path>`.\n"
+    "README.md": "# Punctum\n\nPunctum is a host text editor app. Open it with `punctum <path>` or `edit <path>`.\n\nRun `punctum help` in Shell for usage and hotkeys."
   }
 }
