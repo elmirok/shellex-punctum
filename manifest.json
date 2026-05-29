@@ -1,0 +1,20 @@
+{
+  "id": "system.punctum.local",
+  "name": "Punctum",
+  "version": "1.0.0",
+  "author": "Shellex",
+  "description": "A keyboard-friendly text editor for files inside the encrypted vault.",
+  "repository": "https://github.com/elmirok/shellex-punctum",
+  "type": "system-app",
+  "entry": "README.md",
+  "runtime": "host",
+  "permissions": [
+    "fs:read:/",
+    "fs:write:/"
+  ],
+  "window": {
+    "width": 900,
+    "height": 650,
+    "resizable": true
+  }
+}
