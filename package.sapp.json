@@ -2,9 +2,9 @@
   "manifest": {
     "id": "system.punctum.local",
     "name": "Punctum",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Shellex",
-    "description": "A keyboard-friendly text editor for files inside the encrypted vault.",
+    "description": "A keyboard-friendly text editor for vault files with quickstart documentation.",
     "repository": "https://github.com/elmirok/shellex-punctum",
     "type": "system-app",
     "entry": "README.md",
@@ -20,6 +20,7 @@
     }
   },
   "files": {
-    "README.md": "# Punctum\n\nPunctum is a host text editor app. Open it with `punctum <path>` or `edit <path>`.\n\nRun `punctum help` in Shell for usage and hotkeys."
+    "README.md": "# Punctum\n\nPunctum is a host text editor app for files inside the encrypted vault.\n\nOpen it with `punctum <path>` or `edit <path>` from Shell. It is useful for quick notes, config files, markdown drafts and small project files.\n\n## Quick commands\n\n```txt\npunctum\npunctum /home/Documents/notes.md\nedit /system/w3/config.json\n```\n\n## Keys\n\n```txt\nCtrl+O  save the current file\nCtrl+R  open the path in the path field\nCtrl+X  close Punctum\n```\n\nSee `QUICKSTART.md` for the short workflow.",
+    "QUICKSTART.md": "# Punctum Quickstart\n\n1. Open Shell.\n2. Type `punctum file.md` to open or create a file in the current folder.\n3. Edit the text in the Punctum window.\n4. Press `Ctrl+O` or use the Save button.\n5. Run `save-vault` when you want the change written to the portable `.shellex-vault` file.\n\nPunctum edits files inside the mounted vault. The vault remains the source of truth after you save/export it."
   }
 }
