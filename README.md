@@ -1,9 +1,12 @@
 # Punctum
 
-Punctum is a keyboard-friendly Shellex OS text editor for files inside the encrypted vault. Open it with `punctum <path>` or `edit <path>`.
+Punctum is a host text editor app. Open it with `punctum <path>` or `edit <path>`.
+
+Run `punctum help` in Shell for usage and hotkeys.
 
 ## Shellex package
 
-App id: `system.punctum.local`
-
-This repository is the private source package for the default Shellex OS app.
+- App id: `system.punctum.local`
+- Version: `1.0.0`
+- Runtime: `host`
+- Type: `system-app`
